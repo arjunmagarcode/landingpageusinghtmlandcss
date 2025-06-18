@@ -1,0 +1,107 @@
+.bg {
+    background-color:black;
+    opacity:0.75;
+    color: white
+}
+.header-row {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.side-row{
+    display: flex; gap: 20px;
+    justify-content: left;
+    align-items: middle;
+    
+}
+.Box {
+    width: 100px;
+    height: 50px;
+    background-color:blue; 
+    font-style: normal;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 2px;
+    
+    
+}
+.space {
+    text-align: center;
+
+}
+.sqr {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.box {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      border-radius: 4px;
+      border-bottom: #3498db;
+      line-height: 75px;
+
+}
+
+
+.info {
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+
+
+}
+
+.quote {
+    background-color:gray ;
+}
+
+.Thor {
+    text-align: right;
+}
+
+.blue {
+    display: flex;
+    background-color: #3498db;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    justify-content: left;
+    
+}
+
+.side-side {
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+.sign {
+    text-align: center;
+    background-color: aquamarine;
+    width: 500px;
+    height: 50px;
+   
+
+}
+
+.cr {
+    background-color: bisque;
+    text-align: center;
+}
